@@ -1,8 +1,23 @@
 = 简介
 
 * 名称：**peacetrue-mybatis**
-* 用途：提供 关联 扩展支持
+* 用途：提供 mybatis 扩展支持
 * 地址： https://github.com/peacetrue/peacetrue-mybatis[github^]
 
-== 具体内容
+== 主要内容
 
+=== 函数扩展
+
+* Concat：串联
+* DateFormat：日期格式化
+* DistinctCount：不重复的总计
+* GroupConcat：分组串联
+* IfNull：如果为``null``
+* Replace：替换
+
+=== 通用Mapper
+
+提供通用的增删改查功能，不局限于具体模块
+
+
+=== 辅助构造查询条件
